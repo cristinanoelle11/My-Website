@@ -1,0 +1,92 @@
+
+ .nav-bar {
+  display: flex;
+  justify-content: center;
+}
+a {
+  background-color: transparent;
+  color: #d9c125;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Viga', sans-serif;
+  font-weight: bold;
+  text-shadow:3px 2px #42454a;
+  padding: 15px;
+}
+.line{
+  height: 7px;
+  background-color: #d9c125;
+  border: none;
+
+}
+.home:hover{
+  border: 5px solid #d9c125;
+  border-style:double;
+  height:75px;
+  width: 140px;
+  border-radius: 15px;
+}
+.about:hover{
+  border: 5px solid #d9c125;
+  border-style:double;
+  height:75px;
+  width: 140px;
+  border-radius: 15px;
+}
+.contact:hover{
+
+  border: 5px solid #d9c125;
+  border-style:double;
+  height:75px;
+  width: 190px;
+  border-radius: 15px;
+}
+.resume:hover{
+
+  border: 5px solid #d9c125;
+  border-style:double;
+  height:75px;
+  width: 190px;
+  border-radius: 15px;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+body {
+background-color: white;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -300px;
+  font-family: 'Viga', sans-serif;
+}
+.insta_link{
+  display: flex;
+  width:55px;
+  height:55px;
+  border:0;
+  margin-left:700px;
+  margin-right:auto;
+  margin-top: -20px;
+}
+.linkedIn{
+  display: flex;
+  width:200px;
+  height:200px;
+  border:0;
+  margin-left:750px;
+  margin-right:auto;
+  margin-top: -55px;
+}
+.copyright{
+  text-align: center;
+}

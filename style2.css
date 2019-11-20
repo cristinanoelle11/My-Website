@@ -1,0 +1,106 @@
+
+ .nav-bar {
+  display: flex;
+  justify-content: center;
+}
+a {
+  background-color: transparent;
+  color: #d9c125;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Viga', sans-serif;
+  font-weight: bold;
+  text-shadow:3px 2px #42454a;
+  padding: 15px;
+}
+.line{
+  height: 7px;
+  background-color: #d9c125;
+  border: none;
+
+}
+.home:hover{
+  border: 5px solid #d9c125;
+  border-style:double;
+  height:75px;
+  width: 140px;
+  border-radius: 15px;
+}
+.about:hover{
+  border: 5px solid #d9c125;
+  border-style:double;
+  height:75px;
+  width: 140px;
+  border-radius: 15px;
+}
+.contact:hover{
+
+  border: 5px solid #d9c125;
+  border-style:double;
+  height:75px;
+  width: 190px;
+  border-radius: 15px;
+}
+.resume:hover{
+
+  border: 5px solid #d9c125;
+  border-style:double;
+  height:75px;
+  width: 190px;
+  border-radius: 15px;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+body {
+background-color: white;
+}
+.image1{
+  margin-left: 50px;
+}
+.text1{
+  float: right;
+  background-color: white;
+}
+.me{
+  left:25px;
+  margin-top: 150px;
+  margin-left: -90px;
+  transform: rotate(90deg);
+}
+.me-2{
+  transform: rotate(90deg);
+}
+.me-3{
+  transform: rotate(90deg);
+}
+.me-4{
+  transform: rotate(90deg);
+}
+.contain img{
+  width: 25%;
+  height: auto;
+}
+
+.aboutme{
+height: 500px;
+width: 500px;
+margin-top: 100px;
+margin-left: 200px;
+}
+.aboutme1{
+  width: 1300px;
+  height:auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 150px;
+}
+.copyright{
+  text-align: center;
+}

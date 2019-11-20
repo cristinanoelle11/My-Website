@@ -1,0 +1,45 @@
+
+   html {
+  background: url("IMG_6910.jpeg")center center fixed;
+  background-size: 1500px;
+}
+
+h1 {
+  text-align: center;
+}
+.nav-bar {
+text-align: center;
+  background-color: #e8f1ff;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+}
+
+a {
+  background-color: transparent;
+  color: white;
+  position: relative;
+  text-decoration: none;
+font-size: 150px;
+font-family: 'Courgette', cursive;
+font-weight: bold;
+text-shadow:4px 4px #d9c125;
+}
+
+a:hover {
+  background-color: #d9c125;
+  border: 5px solid #e3e3e3;
+  border-style:double;
+  height:190px;
+  width: 1050px;
+  border-radius: 15px;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
